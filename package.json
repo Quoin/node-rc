@@ -1,6 +1,6 @@
 {
   "name": "@quoin/node-rc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrapper for rc library.",
   "main": "lib/index.js",
   "engines": {
