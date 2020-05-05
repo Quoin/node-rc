@@ -50,5 +50,39 @@
     "eslint-plugin-standard": "~4.0.1",
     "mocha": "~7.1.2",
     "nyc": "~15.0.1"
+  },
+  "nyc": {
+    "all": true,
+    "temp-dir": "./reports/nyc_output",
+    "report-dir": "./coverage/default",
+    "check-coverage": false,
+    "exclude": [
+      "lib/**/*.test.js",
+      "libtest.js",
+      "reports"
+    ],
+    "reporter": [
+      "cobertura",
+      "lcov",
+      "html"
+    ],
+    "watermarks": {
+      "statements": [
+        50,
+        80
+      ],
+      "lines": [
+        50,
+        80
+      ],
+      "functions": [
+        50,
+        80
+      ],
+      "branches": [
+        50,
+        80
+      ]
+    }
   }
 }
