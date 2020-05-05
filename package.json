@@ -6,6 +6,9 @@
   "engines": {
     "node": ">=8.12.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "pretest": "npm run lint",
     "prepack": "npm test",
