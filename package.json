@@ -9,6 +9,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "debug.js",
+    "lib/**/*",
+    "!lib/**/*.test.js",
+    "*.md"
+  ],
   "scripts": {
     "pretest": "npm run lint",
     "prepack": "npm test",

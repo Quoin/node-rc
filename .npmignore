@@ -1,9 +1,0 @@
-/.eslintrc*
-/.foo-barrc
-/.npmignore
-/.nyc_output
-/.nycrc
-/lib/*.test.js
-/npm-debug.log*
-/reports
-/*.tgz
