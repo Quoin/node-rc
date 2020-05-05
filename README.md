@@ -3,7 +3,8 @@
 This is a wrapper library for the [rc](https://www.npmjs.com/package/rc) because
 it doesn't handle properly scoped modules.
 
-This library apply the same logic as `npm pack` is doing.
+This library apply the same logic as `npm pack` is doing for the name of the
+file.
 
 ## Usage
 
