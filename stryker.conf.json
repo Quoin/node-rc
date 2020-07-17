@@ -1,0 +1,15 @@
+{
+  "mutate": [
+    "lib/**/*.js",
+    "!lib/**/*.test.js",
+    "!lib/**/debug.js"
+  ],
+  "testFramework": "mocha",
+  "testRunner": "mocha",
+  "reporters": ["progress", "clear-text", "html"],
+  "coverageAnalysis": "perTest",
+  "tempDirName": "reports/stryker-tmp",
+  "mochaOptions": {
+    "spec": [ "lib/**/*.test.js" ]
+  }
+}
