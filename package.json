@@ -1,6 +1,6 @@
 {
   "name": "@quoin/node-rc",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Wrapper for rc library.",
   "main": "lib/index.js",
   "engines": {
@@ -20,7 +20,6 @@
     "prepack": "npm test",
     "coverage": "nyc --report-dir=reports/coverage npm run -s test",
     "eslint": "eslint --fix \"lib/**/*.js\"",
-    "stryker": "stryker run",
     "test": "mocha \"lib/*.unit.test.js\""
   },
   "repository": {
@@ -41,26 +40,22 @@
   },
   "homepage": "https://github.com/Quoin/node-rc#readme",
   "dependencies": {
-    "debug": "~4.1.1",
-    "lodash": "~4.17.19",
+    "debug": "~4.3.1",
+    "lodash": "~4.17.21",
     "rc": "~1.2.8"
   },
   "devDependencies": {
     "@quoin/node-test-helpers": "~1.0.3",
-    "@stryker-mutator/core": "~3.3.1",
-    "@stryker-mutator/javascript-mutator": "~3.3.1",
-    "@stryker-mutator/mocha-framework": "~3.3.1",
-    "@stryker-mutator/mocha-runner": "~3.3.1",
-    "eslint": "~7.4.0",
-    "eslint-config-airbnb-base": "~14.2.0",
-    "eslint-config-standard": "~14.1.1",
-    "eslint-plugin-html": "~6.0.2",
-    "eslint-plugin-import": "~2.22.0",
-    "eslint-plugin-json": "~2.1.1",
+    "eslint": "~7.28.0",
+    "eslint-config-airbnb-base": "~14.2.1",
+    "eslint-config-standard": "~16.0.3",
+    "eslint-plugin-html": "~6.1.2",
+    "eslint-plugin-import": "~2.23.4",
+    "eslint-plugin-json": "~3.0.0",
     "eslint-plugin-node": "~11.1.0",
-    "eslint-plugin-promise": "~4.2.1",
-    "eslint-plugin-standard": "~4.0.1",
-    "mocha": "~8.0.1",
+    "eslint-plugin-promise": "~5.1.0",
+    "eslint-plugin-standard": "~5.0.0",
+    "mocha": "~9.0.0",
     "nyc": "~15.1.0"
   },
   "nyc": {
