@@ -1,5 +1,12 @@
 # Releases
 
+## 0.1.4 - 2021-06-09
+
+- lodash CVE-2021-23337
+- removed stryker
+- added github workflow
+- npm outdated
+
 ## 0.1.3 - 2019-07-17
 
 - lodash CVE-2019-10744
