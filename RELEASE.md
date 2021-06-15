@@ -1,5 +1,9 @@
 # Releases
 
+## 1.0.0-rc.1 - 2021-06-15
+
+- Update packages and node@14
+
 ## 0.1.4 - 2021-06-09
 
 - lodash CVE-2021-23337
