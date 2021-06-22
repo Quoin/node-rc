@@ -1,11 +1,10 @@
 {
   "name": "@quoin/node-rc",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Wrapper for rc library.",
   "main": "lib/index.js",
   "publishConfig": {
-    "access": "public",
-    "tag": "node14"
+    "access": "public"
   },
   "engines": {
     "node": ">=14.15.0"
@@ -47,10 +46,10 @@
     "rc": "~1.2.8"
   },
   "devDependencies": {
-    "@quoin/node-test-helpers": "^2.0.0",
+    "@quoin/node-test-helpers": "^2.0.1",
     "@stryker-mutator/core": "^4.6.0",
     "@stryker-mutator/mocha-runner": "^4.6.0",
-    "eslint": "~7.28.0",
+    "eslint": "~7.29.0",
     "eslint-config-airbnb-base": "~14.2.1",
     "eslint-config-standard": "~16.0.3",
     "eslint-plugin-html": "~6.1.2",
